@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Fuel Calculator</string>
+    <string name="fuel_amount"> Кількість палива</string>
+    <string name="fuel_quantity_hint">Кількість тон або м3</string>
+    <string name="ash_efficiency"> Ефективність золоуловильної установки</string>
+    <string name="enter_value_hint">Введіть значення</string>
+    <string name="Q_lower"> Нижча теплота згорання</string>
+    <string name="MDj_per_kg">МДж/кг</string>
+    <string name="count">Обчислити</string>
+    <string name="particle_emission">Емісія твердих частинок</string>
+    <string name="total_emission">Валовий викид</string>
+
+    <string-array name="fuel_types">
+        <item>Вугілля</item>
+        <item>Мазут</item>
+        <item>Природний газ</item>
+    </string-array>
+    <string-array name="coal_categories">
+        <item>Антрацитовий штиб</item>
+        <item>Пісне вугілля</item>
+        <item>Донецьке газове</item>
+        <item>Донецьке довгополуменеве</item>
+        <item>Львівсько-волинське</item>
+        <item>Олександрійське буре</item>
+    </string-array>
+    <string-array name="mazut_categories">
+        <item>Високосірчистий 40</item>
+        <item>Високосірчистий 100</item>
+        <item>Високосірчистий 200</item>
+        <item>Малосірчистий 40</item>
+        <item>Малосірчистий 100</item>
+    </string-array>
+    <string-array name="natural_gas_categories">
+        <item>Уренгой-Ужгород</item>
+        <item>Середня Азія - Центр</item>
+    </string-array>
+</resources>

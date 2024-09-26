@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Dropdown for fuel type -->
+    <Spinner
+        android:id="@+id/fuelTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="?android:attr/listDivider"
+        android:layout_marginVertical="8dp"/>
+
+    <!-- Input field for volume -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/fuel_amount"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/volumeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fuel_quantity_hint"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="?android:attr/listDivider"
+        android:layout_marginVertical="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/ash_efficiency"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/ashEfficiency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_value_hint"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="?android:attr/listDivider"
+        android:layout_marginVertical="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/Q_lower"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/Qlower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/MDj_per_kg"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="20sp"/>
+
+
+
+    <!-- Button to perform calculations -->
+
+    <!-- Output fields for emission metrics -->
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="@string/count"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/emissionOutput1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/particle_emission"
+        android:layout_marginTop="18dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/emissionOutput2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_emission"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"/>
+</LinearLayout>
